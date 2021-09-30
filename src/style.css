@@ -1,3 +1,42 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: "Playfair Display" serif;
+  font-weight: bold;
+}
+
+.hero {
+  background: #f9f7fe;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h2 {
+  font-family: "Poppins" sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.btn-branding {
+  border-radius: 4px;
+  color: #f9f7fe;
+  background: #6c63ff;
+  line-height: 27px;
+  font-size: 18px;
+  padding: 12px 20px;
 }

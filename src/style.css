@@ -34,6 +34,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  color: rgb(59, 59, 59);
 }
 
 .navbar-brand {
@@ -79,12 +80,22 @@ p {
 }
 
 a:hover {
-  color: white;
+  color: var(--primary-color);
   text-decoration: underline;
 }
 
 .project-resume {
   padding: 90px 60px;
+}
+
+.container2 {
+  color: rgb(59, 59, 59);
+  padding: 25px 20px;
+}
+
+.social-icons {
+  font-family: var(--p-font-family);
+  color: rgb(59, 59, 59);
 }
 
 @media (max-width: 960px) {

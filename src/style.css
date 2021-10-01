@@ -39,8 +39,15 @@ p {
   opacity: 50%;
 }
 
+i {
+  text-align: center;
+}
+
 .navbar-brand {
   font-family: var(--heading-font-family);
+}
+.hamburger-menu {
+  font-family: var(--p-font-family);
 }
 
 .hero p {
@@ -97,6 +104,11 @@ a:hover {
   justify-content: space-evenly;
   color: rgb(59, 59, 59);
   padding: 25px 20px;
+}
+
+.social-media {
+  justify-content: space-evenly;
+  text-align: center;
 }
 
 .social-icons {

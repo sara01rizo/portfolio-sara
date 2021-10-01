@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #7952b3;
   --heading-font-family: "Playfair Display", serif;
   --p-font-family: "Poppins", sans-serif;
 }
@@ -35,19 +35,17 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+
+.navbar-brand {
+  font-family: var(--heading-font-family);
+}
+
 .hero p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
   color: #272142;
   font-family: var(--p-font-family);
-}
-
-.paragraph {
-  font-size: 20px;
-  text-decoration: rgb(2, 161, 74);
-  text-shadow: seagreen;
-  font-weight: bold;
 }
 
 .hero h2 {
@@ -63,7 +61,7 @@ p {
   background: var(--primary-color);
   line-height: 27px;
   font-size: 18px;
-  padding: 12px 20px;
+  padding: 12px 27px;
 }
 
 .btn-branding-outline {
@@ -76,11 +74,20 @@ p {
   padding: 15px 30px;
 }
 
+.link-project-1 {
+  padding: 10px 10px 20px 95px;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .project-resume {
   padding: 90px 60px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   .project-resume {
     padding: 0;
     text-align: center;

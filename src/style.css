@@ -27,6 +27,7 @@ h6 {
 
 h1 {
   font-size: 96px;
+  margin-top: 20px;
 }
 
 h2 {
@@ -78,6 +79,7 @@ i {
   border-radius: 4px;
   color: #f9f7fe;
   background: var(--primary-color);
+  box-shadow: 7px 5px 5px rgb(196, 196, 196);
   line-height: 27px;
   font-size: 18px;
   padding: 12px 27px;
@@ -97,6 +99,11 @@ i {
   padding: 10px 10px 20px 95px;
 }
 
+a {
+  text-decoration: none;
+  font-family: var(--p-font-family);
+}
+
 a:hover {
   color: var(--primary-color);
   text-decoration: underline;
@@ -112,7 +119,7 @@ a:hover {
 .container2 {
   justify-content: space-evenly;
   color: rgb(59, 59, 59);
-  padding: 25px 20px;
+  padding: 25px 30px;
 }
 
 .social-media {
@@ -125,8 +132,25 @@ a:hover {
   color: rgb(59, 59, 59);
 }
 
+.hero-about {
+  background: #f9f7fe;
+  text-align: center;
+  padding: 60px 20px;
+}
 .info-about {
-    padding: 12px 15px;
+  padding: 12px 15px;
+}
+
+.info-about-outline {
+  justify-content: space-evenly;
+  font-family: var(--p-font-family);
+  padding: 30px 35px;
+  font-weight: normal;
+  line-height: 39px;
+}
+
+.paragraph-about {
+  text-decoration: none;
 }
 
 @media (max-width: 960px) {

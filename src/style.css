@@ -47,6 +47,11 @@ i {
   text-align: center;
 }
 
+.profile-photo {
+  border-radius: 2.8px;
+  text-align: center;
+  justify-content: space-evenly;
+}
 .navbar-brand {
   font-family: var(--heading-font-family);
 }
@@ -118,6 +123,10 @@ a:hover {
 .social-icons {
   font-family: var(--p-font-family);
   color: rgb(59, 59, 59);
+}
+
+.info-about {
+    padding: 12px 15px;
 }
 
 @media (max-width: 960px) {

@@ -176,6 +176,10 @@ a:hover {
   line-height: 80px;
   font-family: var(--p-font-family);
 }
+.contact-container {
+  text-align: center;
+  color: var(--primary-color);
+}
 
 @media (max-width: 960px) {
   .project-resume {
@@ -185,5 +189,8 @@ a:hover {
   .landscape-spacing {
     padding: 0 0 50px;
     margin-bottom: -70px;
+  }
+  .project-description h2 {
+    font-size: 55px;
   }
 }

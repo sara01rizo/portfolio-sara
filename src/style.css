@@ -75,6 +75,10 @@ i {
   line-height: 2;
 }
 
+img {
+  background: #f9f7fe;
+}
+
 .btn-branding {
   border-radius: 4px;
   color: #f9f7fe;

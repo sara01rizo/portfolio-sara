@@ -179,6 +179,7 @@ a:hover {
 .contact-container {
   text-align: center;
   color: var(--primary-color);
+  background: #f9f7fe;
 }
 
 @media (max-width: 960px) {
@@ -192,5 +193,8 @@ a:hover {
   }
   .project-description h2 {
     font-size: 55px;
+  }
+  .h2 {
+    font-size: 50px;
   }
 }

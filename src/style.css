@@ -181,6 +181,13 @@ a:hover {
   color: var(--primary-color);
   background: #f9f7fe;
 }
+.answer-question {
+  display: flex;
+  text-align: center;
+  line-height: 30px;
+  font-family: var(--p-font-family);
+  justify-content: space-evenly;
+}
 
 @media (max-width: 960px) {
   .project-resume {

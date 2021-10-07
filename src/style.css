@@ -137,17 +137,17 @@ a:hover {
   color: rgb(59, 59, 59);
 }
 
-.hero-about {
+.hero-content {
   background: #f9f7fe;
   text-align: center;
   padding: 60px 20px;
 }
-.info-about {
+.info-content {
   padding: 12px 15px;
   margin: 38px;
 }
 
-.info-about-outline p {
+.info-content-outline p {
   justify-content: space-evenly;
   font-size: 18px !important;
   font-family: var(--p-font-family);
@@ -160,13 +160,13 @@ a:hover {
   text-decoration: none;
 }
 
-.hero-about p {
+.hero-content p {
   text-align: center;
   font-size: 80px;
   margin: 35px;
 }
 
-.contact-header h1 {
+.content-header h1 {
   font-size: 64px;
   line-height: 80px;
 }

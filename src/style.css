@@ -10,9 +10,10 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: rgb(29, 29, 29);
   font-family: var(--heading-font-family);
   font-weight: bold;
+  text-align: center;
 }
 
 .container {
@@ -162,10 +163,14 @@ a:hover {
 
 .hero-content p {
   text-align: center;
-  font-size: 80px;
-  margin: 35px;
+  font-size: 36px;
+  margin: 25px;
 }
 
+.contact-page {
+  font-size: 18px;
+  color: rgb(59, 59, 59);
+}
 .content-header h1 {
   font-size: 64px;
   line-height: 80px;
@@ -180,6 +185,17 @@ a:hover {
   text-align: center;
   color: var(--primary-color);
   background: #f9f7fe;
+}
+
+.content {
+  text-align: center;
+  font-family: var(--p-font-family);
+}
+
+.question {
+  text-align: center;
+  color: #272142;
+  margin: 12px;
 }
 .answer-question {
   display: flex;

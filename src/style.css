@@ -209,7 +209,7 @@ a:hover {
   text-align: left;
   font-size: 64px;
   text-transform: bold;
-  margin: 85px 10px 10px 2px;
+  margin: 85px 10px 24px 2px;
 }
 
 @media (max-width: 960px) {

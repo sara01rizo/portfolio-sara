@@ -23,12 +23,12 @@ h6 {
 .hero {
   background: #f9f7fe;
   text-align: center;
-  padding: 120px 20px;
+  padding: 30px 20px;
 }
 
 h1 {
-  font-size: 96px;
-  margin-top: 20px;
+  font-size: 63px;
+  margin-top: -23px;
 }
 
 h2 {
@@ -36,8 +36,13 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 18px;
+}
+
 h4 {
-  font-size: 46px;
+  font-size: 64px;
+  color: #272142;
 }
 
 p {
@@ -68,7 +73,7 @@ i {
 .hero p {
   font-size: 36px;
   font-weight: bold;
-  margin: 0;
+  margin: 26px;
   color: #272142;
   font-family: var(--p-font-family);
 }
@@ -139,7 +144,7 @@ a:hover {
 }
 .info-content {
   padding: 12px 15px;
-  margin: 38px;
+  margin: 34px 38px 2px 38px;
 }
 
 .info-content-outline p {
@@ -201,7 +206,7 @@ a:hover {
 
 .work-content h1 {
   text-align: left;
-  font-size: 64px;
+  font-size: 36px;
   text-transform: bold;
   margin: 85px 10px 24px 2px;
 }
@@ -258,11 +263,16 @@ footer .social-links a:hover {
   .project-description h2 {
     font-size: 55px;
   }
+
+  .h1 {
+    text-align: center;
+    font-size: 57px;
+  }
   .h2 {
     font-size: 50px;
   }
 
-  h4 {
+  h3 {
     font-size: 26 px;
   }
 }

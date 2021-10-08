@@ -241,6 +241,11 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
 }
 
+footer .social-links a:hover {
+  color: #f9f7fe;
+  background: var(--primary-color);
+}
+
 @media (max-width: 960px) {
   .project-resume {
     padding: 0;

@@ -36,6 +36,10 @@ h2 {
   text-align: center;
 }
 
+h4 {
+  font-size: 46px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -128,16 +132,6 @@ a:hover {
   padding: 25px 30px;
 }
 
-.social-media {
-  justify-content: space-evenly;
-  text-align: center;
-}
-
-.social-icons {
-  font-family: var(--p-font-family);
-  color: rgb(59, 59, 59);
-}
-
 .hero-content {
   background: #f9f7fe;
   text-align: center;
@@ -212,6 +206,41 @@ a:hover {
   margin: 85px 10px 24px 2px;
 }
 
+footer {
+  margin: 55px 0;
+}
+
+footer .contact-box {
+  background-image: url("https://img.freepik.com/free-vector/decorative-soft-pink-watercolor-texture-design-background-vector_1055-10739.jpg?size=626&ext=jpg");
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-align: center;
+  font-size: 24px;
+  color: #272142;
+  text-decoration: none;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  background: #f9f7fe;
+  color: (--primary-color);
+  font-size: 18px;
+  border-radius: 50%;
+  padding: 10px 14px;
+  transition: all 100ms ease-in-out;
+}
+
 @media (max-width: 960px) {
   .project-resume {
     padding: 0;
@@ -226,5 +255,9 @@ a:hover {
   }
   .h2 {
     font-size: 50px;
+  }
+
+  h4 {
+    font-size: 26 px;
   }
 }

@@ -156,6 +156,10 @@ a:hover {
   line-height: 30px;
 }
 
+.about-heading h1 {
+  font-size: 52px;
+}
+
 .paragraph-about {
   text-decoration: none;
 }

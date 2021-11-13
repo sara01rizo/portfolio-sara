@@ -130,7 +130,7 @@ a:hover {
 }
 
 .landscape-spacing {
-  padding: 75px;
+  padding: 0px;
 }
 .container2 {
   justify-content: space-evenly;
@@ -214,6 +214,10 @@ a:hover {
   font-size: 36px;
   text-transform: bold;
   margin: 85px 10px 24px 2px;
+}
+
+.mb-5 {
+  margin: 159px 0px 0px 0px;
 }
 
 footer {

@@ -63,6 +63,7 @@ i {
   text-align: center;
   justify-content: space-evenly;
 }
+
 .navbar-brand {
   font-family: var(--heading-font-family);
 }

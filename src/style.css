@@ -102,6 +102,21 @@ img {
   margin: 5px 5px 5px 196px;
 }
 
+.btn-branding__about {
+  border-radius: 4px;
+  color: #f9f7fe;
+  background: var(--primary-color);
+  box-shadow: 7px 5px 5px rgb(196 196 196);
+  line-height: 27px;
+  font-size: 18px;
+  padding: 12px 27px;
+  margin: 5px 5px 5px 0px;
+}
+
+.mb-5__about {
+  margin: 95px 0px 0px 0px;
+}
+
 .btn-branding__header {
   border-radius: 4px;
   color: #f9f7fe;

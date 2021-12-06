@@ -257,6 +257,11 @@ a:hover {
   margin: 159px 0px 0px 0px;
 }
 
+.img__dictionary {
+  height: 415px;
+  width: 725px;
+}
+
 footer {
   margin: 55px 0;
 }
